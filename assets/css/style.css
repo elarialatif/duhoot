@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+/* Header */
+
+.header {
+    display: block;
+    overflow: hidden;
+}
+
+.header div {
+    display: inline-block;
+}
+
+.header_left {
+    padding: 2rem 0;
+    text-align: right;
+}
+
+.header_left img {
+    margin: 0 5rem;
+}
+
+.header_left .links {
+    margin-left: 3rem;
+}
+
+.header_left .links a {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #96a6a7;
+    padding: 1rem;
+}
+
+.header_right {
+    padding: 0;
+    text-align: right;
+}
+
+.header_right .login {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border: 0;
+    background: #e94e38;
+    color: #fff;
+    padding: 3rem 25rem 2rem 3rem;
+}
+
+.header_right .login:focus,
+.header_right .search:focus {
+    outline: none;
+}
+
+.header_right .login i {
+    font-size: 2rem;
+    padding: 0 1rem;
+}
+
+.header_right .search {
+    position: relative;
+}
+
+.header_right .search:before {
+    content: "\f002";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    background: #e2dee0;
+    color: #fff;
+    font-size: 3rem;
+    position: absolute;
+    left: -64px;
+    top: -47px;
+    padding: 1.5rem 2rem;
+}
+
+
+/* 
+.header_right .search {
+    background: #e2dee0;
+    color: #fff;
+    border: 0;
+    padding: 2rem;
+}
+
+.header_right .search i {
+    font-size: 3rem;
+} */
