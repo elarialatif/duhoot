@@ -1,5 +1,28 @@
 @charset "UTF-8";
 
+/* Fonts */
+
+@font-face {
+    font-family: GE_Flow_Bold;
+    src: url("../fonts/GE_Flow_Bold.otf");
+}
+
+@font-face {
+    font-family: GE_Flow_Regular;
+    src: url("../fonts/GE_Flow_Regular.otf");
+}
+
+@font-face {
+    font-family: BebasNeue_Bold;
+    src: url("../fonts/BebasNeue_Bold.otf");
+}
+
+@font-face {
+    font-family: BebasNeue_Regular;
+    src: url("../fonts/BebasNeue_Regular.otf");
+}
+
+
 /* Header */
 
 .header {
@@ -88,3 +111,115 @@
 .header_right .search i {
     font-size: 3rem;
 } */
+
+
+/* Footer */
+
+.footer {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/footerBG.png') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: block;
+    overflow: hidden;
+}
+
+.footer_top {
+    text-align: center;
+    padding-bottom: 3rem;
+    padding-top: 2rem;
+}
+
+.footer_top h2 {
+    color: #fff;
+}
+
+.footer_top form {
+    padding: 1rem 0;
+    margin: 0 8rem;
+    width: 100%;
+    display: block;
+}
+
+.footer_top input {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    background: #5b5553;
+    padding: 2.5rem 4rem;
+    border: 0;
+    width: 40%;
+    border-radius: 35px;
+}
+
+.footer_top input:focus,
+.footer_top button:focus {
+    outline: none;
+}
+
+.footer_top input::placeholder {
+    color: #fff;
+    font-size: 2rem;
+}
+
+.footer_top button {
+    background: #e94e38;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    border: 0;
+    padding: 1.5rem 2rem;
+    border-radius: 30px;
+    position: relative;
+    right: 14rem;
+}
+
+.footer_bottom {
+    display: block;
+    overflow: hidden;
+    padding: 3rem 0;
+    border-top: 1px solid #8a8681;
+    ;
+    margin: 2rem 8rem 5rem;
+}
+
+.footer_bottom h4 {
+    color: #fff;
+    border-bottom: 1px solid #8a8681;
+    width: 25%;
+    text-transform: capitalize;
+}
+
+.footer_bottom .links,
+.footer_bottom .social_media {
+    padding: 1rem 0;
+}
+
+.footer_bottom .links a {
+    text-transform: capitalize;
+    display: block;
+    color: #8a8681;
+    padding: 0.2rem 0;
+}
+
+.footer_bottom .social_media {
+    padding: 1rem 0;
+}
+
+.footer_bottom .social_media a {
+    display: inline-block;
+    padding: 0.5rem 0;
+    padding-right: 1rem;
+}
+
+.footer_bottom .social_media a i {
+    color: #fff;
+    font-size: 3rem;
+}
+
+.footer_bottom h5 {
+    font-size: 1.5rem;
+    margin-top: 5rem;
+    color: #fff;
+}
