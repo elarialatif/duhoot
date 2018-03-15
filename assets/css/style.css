@@ -113,6 +113,102 @@
 } */
 
 
+/* Offer */
+
+.offer {
+    display: block;
+    overflow: hidden;
+    background: #f3f1f2;
+}
+
+.offer h2,
+.offer h5,
+.offer .icons {
+    text-align: center;
+}
+
+.offer h2 {
+    color: #4b5b6a;
+}
+
+.offer h5 {
+    color: #c8cecf;
+    font-size: 2rem;
+}
+
+.offer .icons {
+    margin-top: 4rem;
+}
+
+.offer .icons a {
+    display: inline-block;
+    border: 1px solid #9dacad;
+    border-radius: 55px;
+    margin: 0 1rem;
+}
+
+.offer .icons a:hover {
+    border: 1px solid #1db05e;
+}
+
+.offer .icons a i:hover {
+    color: #1db05e;
+}
+
+.offer .icons a.active {
+    border: 1px solid #1db05e;
+}
+
+.offer .icons a.active i {
+    color: #1db05e;
+}
+
+.offer .icons hr {
+    display: inline-block;
+    border-top: 1px solid #c8cecf;
+    padding: 0 5rem;
+}
+
+.offer .icons a i {
+    font-size: 6rem;
+    color: #9dacad;
+    padding: 2.5rem;
+}
+
+.offer .details {
+    display: block;
+    overflow: hidden;
+    margin-top: 1rem;
+    margin-bottom: 10rem;
+}
+
+.offer .details h2 {
+    color: #1db05e;
+    text-transform: capitalize;
+    margin: 2rem 0;
+}
+
+.offer .details div p {
+    display: inline-block;
+    color: #808996;
+    padding: 0 2rem;
+}
+
+.offer .details div span {
+    padding: 1rem;
+}
+
+.offer .details div i {
+    display: inline-block;
+    color: #fff;
+    background: #1db05e;
+    border: 1px solid #1db05e;
+    border-radius: 25px;
+    font-size: 2rem;
+    padding: 1.5rem;
+}
+
+
 /* Footer */
 
 .footer {
