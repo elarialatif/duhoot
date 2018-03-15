@@ -113,6 +113,28 @@
 } */
 
 
+/* Services */
+
+.services {
+    display: block;
+    overflow: hidden;
+    background: #f3f1f2;
+}
+
+.services .odd_raw {}
+
+.services .card .content {
+    background: #fff;
+    padding: 2px 16px;
+}
+
+.services .card {}
+
+.services .card img {
+    width: 100%;
+}
+
+
 /* Offer */
 
 .offer {
@@ -166,7 +188,7 @@
 .offer .icons hr {
     display: inline-block;
     border-top: 1px solid #c8cecf;
-    padding: 0 5rem;
+    padding: 0 3rem;
 }
 
 .offer .icons a i {
