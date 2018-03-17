@@ -98,19 +98,6 @@
 }
 
 
-/* 
-.header_right .search {
-    background: #e2dee0;
-    color: #fff;
-    border: 0;
-    padding: 2rem;
-}
-
-.header_right .search i {
-    font-size: 3rem;
-} */
-
-
 /* Search */
 
 #search {
@@ -863,7 +850,249 @@
 }
 
 
-/* small screen 480px */
+/*1024*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .header_right .search:before {
+        left: 11rem;
+    }
+    .header_right .login {
+        padding: 2rem;
+    }
+    .header_left {
+        text-align: left;
+    }
+    .header_left .links {
+        margin-left: 3.5rem;
+        margin-top: 2rem;
+    }
+    /* Services */
+    .services #h_card.card1,
+    .services #h_card.card2 {
+        bottom: 1rem;
+    }
+    .services #card.card1 i.fa-home,
+    .services #card.card4 i.fa-home,
+    .services #card.card3 i.fa-bus {
+        bottom: 10rem;
+    }
+    #card.card1 .overlay,
+    #card.card2 .overlay,
+    #card.card3 .overlay,
+    #card.card4 .overlay {
+        width: 413px;
+        height: 196px;
+    }
+    #card.card1,
+    #card.card2,
+    #card.card3,
+    #card.card4 {
+        margin-bottom: 1rem;
+    }
+    .services #card img {
+        max-height: 200px;
+    }
+    #card.card1,
+    #card.card2,
+    #card.card3,
+    #card.card4 {
+        width: 50%;
+    }
+    .services #h_card .stars {
+        top: 7rem;
+    }
+    .services #h_card .content p {
+        margin-left: 0rem;
+        font-size: 1.3rem;
+    }
+    .services #h_card .content h4 {
+        font-size: 1.5rem;
+    }
+    .services #h_card .stars h5 {
+        font-size: 1.5rem;
+    }
+    .services #h_card .content h6 {
+        font-size: 1.5rem;
+    }
+    .services #h_card .content p {
+        padding-right: 0.5rem;
+    }
+    #h_card.card2.col-sm-12 .stars {
+        top: 16rem;
+    }
+    .services #h_card.card2.col-sm-12 i.fa-home {
+        bottom: 11rem;
+    }
+    /* Offer */
+    .offer .icons a i {
+        font-size: 4rem;
+    }
+    /* Footer */
+    .footer_bottom h5 {
+        font-size: 1.3rem;
+    }
+    .footer_bottom h4 {
+        width: 60%;
+    }
+    .footer_top input {
+        width: 60%;
+    }
+}
+
+
+/* tablet screen 767*/
+
+@media (max-width: 767px) {
+    /* Header */
+    .header_left img {
+        margin: 0px 1rem;
+    }
+    .header_left {
+        text-align: left;
+    }
+    .header_left .links {
+        margin: 1rem 0;
+    }
+    .header_left .links a {
+        font-size: 1.3rem;
+    }
+    .header_right .login {
+        font-size: 1.5rem;
+        padding: 2rem;
+    }
+    .header_right .search:before {
+        left: 0;
+        top: 0;
+        bottom: 0;
+    }
+    .header_right {
+        padding: 0;
+        text-align: right;
+        position: relative;
+    }
+    #search a {
+        padding: 1rem 3rem;
+        margin-right: 1rem;
+        font-size: 2rem;
+    }
+    #search a span {
+        margin-right: 4rem;
+    }
+    #search input {
+        margin-left: 1rem;
+        width: 95%;
+    }
+    #search button {
+        padding: 1.5rem 3rem;
+    }
+    /* Filter */
+    .filter {
+        padding-left: 0;
+    }
+    .filter .links a {
+        font-size: 1.3rem;
+        margin: 1rem 0;
+    }
+    .filter .select {
+        margin-bottom: 1rem;
+    }
+    .filter .select a {
+        padding: 1rem 2rem;
+    }
+    /* Footer Section */
+    .footer_top h2 {
+        font-size: 2rem;
+    }
+    .footer_top form {
+        margin: 0;
+        position: relative;
+    }
+    .footer_top input {
+        width: 90%;
+        padding: 2.5rem 2rem;
+    }
+    .footer_top button {
+        font-size: 1.2rem;
+        padding: 1.5rem;
+        position: absolute;
+        right: 5rem;
+        bottom: 2rem;
+    }
+    .footer_bottom {
+        margin: 2rem;
+    }
+    .footer_bottom h4 {
+        border: 0;
+        width: 100%;
+    }
+    .footer_bottom div.col-xs-12 {
+        text-align: center;
+        margin-top: 2rem;
+        padding: 0;
+    }
+    .footer_bottom h5 {
+        margin-top: 0;
+    }
+    /* Offer Section */
+    .offer h2 {
+        font-size: 2rem;
+    }
+    .offer h5 {
+        font-size: 1.7rem;
+    }
+    .offer .icons {
+        margin-top: 2rem;
+    }
+    .offer .icons a i {
+        font-size: 3rem;
+        padding: 1rem;
+    }
+    .offer .details {
+        margin-bottom: 4rem;
+    }
+    .offer .details div span {
+        padding: 0 1rem;
+    }
+    .offer .details h2 {
+        margin: 3rem 0;
+        font-size: 2.5rem;
+    }
+    /* Services */
+    .services #h_card.card1,
+    .services #h_card.card2 {
+        bottom: 1rem;
+    }
+    .services #card.card1 i.fa-home,
+    .services #card.card4 i.fa-home,
+    .services #card.card3 i.fa-bus {
+        bottom: 10rem;
+    }
+    #card.card1 .overlay,
+    #card.card2 .overlay,
+    #card.card3 .overlay,
+    #card.card4 .overlay {
+        width: 302px;
+        height: 196px;
+    }
+    #card.card1,
+    #card.card2,
+    #card.card3,
+    #card.card4 {
+        margin-bottom: 1rem;
+    }
+    .services #card img {
+        max-height: 200px;
+    }
+    #card.card1,
+    #card.card2,
+    #card.card3,
+    #card.card4 {
+        width: 50%;
+    }
+}
+
+
+/* mobile screen 480px */
 
 @media (max-width: 480px) {
     /* Header */
@@ -880,20 +1109,6 @@
     .header_left .links a {
         font-size: 1.1rem;
         padding: 1rem 0.5rem;
-    }
-    .header_right .login {
-        font-size: 1.5rem;
-        padding: 2rem;
-    }
-    .header_right .search:before {
-        left: 0;
-        top: 0;
-        bottom: 0;
-    }
-    .header_right {
-        padding: 0;
-        text-align: right;
-        position: relative;
     }
     /* Search */
     #search h1 {
@@ -920,20 +1135,6 @@
         padding: 1.5rem 3rem;
         font-size: 1.5rem;
     }
-    /* Filter */
-    .filter {
-        padding-left: 0;
-    }
-    .filter .links a {
-        font-size: 1.3rem;
-        margin: 1rem 0;
-    }
-    .filter .select {
-        margin-bottom: 1rem;
-    }
-    .filter .select a {
-        padding: 1rem 2rem;
-    }
     /* Services Section */
     .services #card.card1 i.fa-home,
     .services #card.card4 i.fa-home,
@@ -946,13 +1147,13 @@
     #card.card2 .overlay,
     #card.card3 .overlay,
     #card.card4 .overlay {
-        width: 302px
+        width: 390px
     }
     .services #h_card .stars {
-        top: 5rem;
+        top: 7rem;
     }
     .services #h_card .stars h5 {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
     .services #h_card .stars h6 {
         font-size: 1rem;
@@ -975,73 +1176,19 @@
     }
     .services .odd_row #card.col-xs-12 {
         margin-bottom: 1rem;
+        width: 100%;
     }
     .services .odd_row {
         margin-bottom: 1rem;
         margin-top: 1rem;
     }
-    .services .even_row #card.card1 {
+    .services .even_row #card.card1,
+    .services .even_row #card.card2 {
         margin-bottom: 1rem;
-    }
-    /* Offer Section */
-    .offer h2 {
-        font-size: 2rem;
-    }
-    .offer h5 {
-        font-size: 1.7rem;
-    }
-    .offer .icons {
-        margin-top: 2rem;
-    }
-    .offer .icons a i {
-        font-size: 3rem;
-        padding: 1rem;
-    }
-    .offer .icons hr.xs-hidden {
-        display: none;
-    }
-    .offer .details {
-        margin-bottom: 4rem;
-    }
-    .offer .details div span {
-        padding: 0 1rem;
-    }
-    .offer .details h2 {
-        margin: 3rem 0;
-        font-size: 2.5rem;
-    }
-    /* Footer Section */
-    .footer_top h2 {
-        font-size: 2rem;
-    }
-    .footer_top form {
-        margin: 0;
-        position: relative;
-    }
-    .footer_top input {
-        width: 90%;
-        padding: 2.5rem 2rem;
-    }
-    .footer_top button {
-        font-size: 1.2rem;
-        padding: 1.5rem;
-        position: absolute;
-        right: 3rem;
-        bottom: 2rem;
-    }
-    .footer_bottom {
-        margin: 2rem;
-    }
-    .footer_bottom h4 {
-        border: 0;
         width: 100%;
     }
-    .footer_bottom div.col-xs-12 {
-        text-align: center;
-        margin-top: 2rem;
-        padding: 0;
-    }
-    .footer_bottom h5 {
-        margin-top: 0;
+    /* Offer */
+    .offer .icons hr.xs-hidden {
+        display: none;
     }
 }
