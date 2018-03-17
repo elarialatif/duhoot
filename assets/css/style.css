@@ -58,6 +58,7 @@
 .header_right {
     padding: 0;
     text-align: right;
+    position: relative;
 }
 
 .header_right .login {
@@ -80,10 +81,6 @@
     padding: 0 1rem;
 }
 
-.header_right .search {
-    position: relative;
-}
-
 .header_right .search:before {
     content: "\f002";
     font-family: FontAwesome;
@@ -94,8 +91,9 @@
     color: #fff;
     font-size: 3rem;
     position: absolute;
-    left: -64px;
-    top: -47px;
+    left: 2rem;
+    top: 0;
+    bottom: 0;
     padding: 1.5rem 2rem;
 }
 
@@ -862,4 +860,188 @@
     font-size: 1.5rem;
     margin-top: 5rem;
     color: #fff;
+}
+
+
+/* small screen 480px */
+
+@media (max-width: 480px) {
+    /* Header */
+    .header_left {
+        padding: 1rem 0;
+        text-align: left;
+    }
+    .header_left img {
+        margin: 1rem;
+    }
+    .header_left .links {
+        margin-left: 0rem;
+    }
+    .header_left .links a {
+        font-size: 1.1rem;
+        padding: 1rem 0.5rem;
+    }
+    .header_right .login {
+        font-size: 1.5rem;
+        padding: 2rem;
+    }
+    .header_right .search:before {
+        left: 0;
+        top: 0;
+        bottom: 0;
+    }
+    .header_right {
+        padding: 0;
+        text-align: right;
+        position: relative;
+    }
+    /* Search */
+    #search h1 {
+        font-size: 2.5rem;
+    }
+    #search a {
+        margin-right: 0rem;
+        font-size: 1.3rem;
+    }
+    #search a span {
+        margin-right: 5rem;
+    }
+    #search a i {
+        font-size: 1rem;
+        margin-left: 0;
+    }
+    #search input {
+        font-size: 1.5rem;
+        margin: 3rem;
+        margin-left: 1rem;
+        width: 95%;
+    }
+    #search button {
+        padding: 1.5rem 3rem;
+        font-size: 1.5rem;
+    }
+    /* Filter */
+    .filter {
+        padding-left: 0;
+    }
+    .filter .links a {
+        font-size: 1.3rem;
+        margin: 1rem 0;
+    }
+    .filter .select {
+        margin-bottom: 1rem;
+    }
+    .filter .select a {
+        padding: 1rem 2rem;
+    }
+    /* Services Section */
+    .services #card.card1 i.fa-home,
+    .services #card.card4 i.fa-home,
+    .services #card.card2 i.fa-music,
+    .services #card.card3 i.fa-bus {
+        bottom: 9rem;
+        left: 13rem;
+    }
+    #card.card1 .overlay,
+    #card.card2 .overlay,
+    #card.card3 .overlay,
+    #card.card4 .overlay {
+        width: 302px
+    }
+    .services #h_card .stars {
+        top: 5rem;
+    }
+    .services #h_card .stars h5 {
+        font-size: 1.2rem;
+    }
+    .services #h_card .stars h6 {
+        font-size: 1rem;
+    }
+    .services #h_card .content h6 {
+        font-size: 1.3rem;
+    }
+    .services #h_card {
+        margin-bottom: 1rem;
+    }
+    .services #h_card .content p {
+        margin-left: 0;
+        font-size: 1.3rem;
+    }
+    .services #h_card .content {
+        max-height: 160px;
+    }
+    .services #h_card .content h4 {
+        font-size: 1.5rem;
+    }
+    .services .odd_row #card.col-xs-12 {
+        margin-bottom: 1rem;
+    }
+    .services .odd_row {
+        margin-bottom: 1rem;
+        margin-top: 1rem;
+    }
+    .services .even_row #card.card1 {
+        margin-bottom: 1rem;
+    }
+    /* Offer Section */
+    .offer h2 {
+        font-size: 2rem;
+    }
+    .offer h5 {
+        font-size: 1.7rem;
+    }
+    .offer .icons {
+        margin-top: 2rem;
+    }
+    .offer .icons a i {
+        font-size: 3rem;
+        padding: 1rem;
+    }
+    .offer .icons hr.xs-hidden {
+        display: none;
+    }
+    .offer .details {
+        margin-bottom: 4rem;
+    }
+    .offer .details div span {
+        padding: 0 1rem;
+    }
+    .offer .details h2 {
+        margin: 3rem 0;
+        font-size: 2.5rem;
+    }
+    /* Footer Section */
+    .footer_top h2 {
+        font-size: 2rem;
+    }
+    .footer_top form {
+        margin: 0;
+        position: relative;
+    }
+    .footer_top input {
+        width: 90%;
+        padding: 2.5rem 2rem;
+    }
+    .footer_top button {
+        font-size: 1.2rem;
+        padding: 1.5rem;
+        position: absolute;
+        right: 3rem;
+        bottom: 2rem;
+    }
+    .footer_bottom {
+        margin: 2rem;
+    }
+    .footer_bottom h4 {
+        border: 0;
+        width: 100%;
+    }
+    .footer_bottom div.col-xs-12 {
+        text-align: center;
+        margin-top: 2rem;
+        padding: 0;
+    }
+    .footer_bottom h5 {
+        margin-top: 0;
+    }
 }
