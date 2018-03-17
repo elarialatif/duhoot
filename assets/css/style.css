@@ -121,7 +121,10 @@
     background: #f3f1f2;
 }
 
-.services .odd_row {}
+.services .odd_row {
+    margin-bottom: 3rem;
+    margin-top: 3rem;
+}
 
 .services #card .content {
     background: #fff;
@@ -354,6 +357,119 @@
     bottom: 0;
     right: 0;
     transition: .3s ease;
+}
+
+
+/* Even Row */
+
+.services .even_row {}
+
+.services #h_card img {
+    width: 100%;
+}
+
+.services #h_card.card1 img {
+    border-bottom: 3px solid #1db05e;
+}
+
+.services #h_card.card2 img {
+    border-bottom: 3px solid #f19e1f;
+}
+
+.services #h_card.card1 i.fa-home {
+    position: absolute;
+    bottom: 13rem;
+    left: 5rem;
+    color: #fff;
+    background: #1db05e;
+    border-radius: 30px;
+    font-size: 3rem;
+    border: 4px solid #fff;
+    padding: 1rem;
+}
+
+.services #h_card.card2 i.fa-home {
+    position: absolute;
+    bottom: 13rem;
+    left: 5rem;
+    color: #fff;
+    background: #f19e1f;
+    border-radius: 30px;
+    font-size: 3rem;
+    border: 4px solid #fff;
+    padding: 1rem;
+}
+
+.services #h_card .stars {
+    display: inline-block;
+    position: absolute;
+    top: 10rem;
+    left: 12rem;
+}
+
+.services #h_card .stars h5,
+.services #h_card .stars h6 {
+    display: inline-block;
+}
+
+.services #h_card .stars h5 {
+    color: #fff;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.services #h_card .stars h6 {
+    color: #f19e1f;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.services #h_card .stars h6 span {
+    color: #fff;
+}
+
+.services #h_card .content {
+    background: #fff;
+    padding: 1.5rem 0;
+    padding-bottom: 1rem;
+    max-height: 155px;
+}
+
+.services #h_card .content img {
+    width: 50px;
+    height: 50px;
+    border: 0;
+}
+
+.services #h_card .content h6 {
+    font-size: 2rem;
+    margin: 0rem 11rem;
+    color: #f19e1f;
+}
+
+.services #h_card .content div {
+    margin-left: 4rem;
+}
+
+.services #h_card .content h4 {
+    display: inline-block;
+    margin: 0 2rem;
+    font-size: 2rem;
+    color: #566375;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.services #h_card .content p {
+    color: #9E9E9E;
+    margin-left: 7rem;
+    padding-right: 1rem;
+    font-size: 1.5rem;
+}
+
+.services #h_card .content p a {
+    color: #566375;
+    font-weight: 600;
 }
 
 
